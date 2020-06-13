@@ -1,0 +1,102 @@
+body{
+    background: var(--default-background-color-body);
+}
+
+body main{
+    width: 90%;
+    max-width: 1400px;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--default-background-color-header); 
+    border-bottom:  var(--default-background-color-header) solid 2px;
+}
+
+header img{
+    width: 5%;
+}
+header h1{
+    font-size: 25px;
+    margin-left: 1vw;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .input-row{
+display: flex;
+flex-direction: column;
+margin: 20% 0;
+}
+form .input-row #submit{
+    background: orange;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 20vw;
+    
+}
+
+form .input-row #submit:hover{
+    background: darkorange;
+}
+
+input[type='file'] {
+    display: none
+  }
+
+  .input-wrapper #name-button {
+    background-color: #3498db;
+    border-radius: 5px;
+    color: fff;
+    margin: 10px;
+    padding: 6px 20px
+  }
+  
+  .input-wrapper #name-button:hover {
+    background-color: #2980b9
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Aparência que terá o seletor de arquivo */
+  #name-button {
+    background-color: #3498db;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 10px;
+  }
+ 
+  .input-row  h1{
+      margin-bottom: 20px;
+  }
+
+  .input-row{
+      background: rgb(231, 227, 227);
+      padding: 20px;
+      border: none;
+      border-radius: 8px;
+  }

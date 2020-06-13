@@ -1,0 +1,30 @@
+:root{
+    --title-color: #0047ab;
+    --default-background-color-body: whitesmoke;
+    --default-background-color-header: gainsboro
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--title-color);
+}
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+button{
+    cursor: pointer;
+}
